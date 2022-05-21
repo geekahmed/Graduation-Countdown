@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 150px;
+}
+
+.App-header {
+  background-color: #7D1E6A;
+  padding: 20px;
+  color: white;
+}
+
+.App-header .title{
+  margin-top: 40px;
+}
+
+.App-header a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: .2s all;
+}
+.App-header a:hover{
+  opacity: .7;
+}
+
+.githubIcon{
+  height: 30px;
+  margin-right: 5px;
+}
+
+.Countdown{
+  margin: 10px auto;
+  padding-bottom: 20px;
+}
+
+.Countdown-col{
+  display: inline-block;
+}
+
+.Countdown-col-element{
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong{
+  font-size: 50px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "graduation-countdown",
+  "version": "1.0.0",
+  "description": "Graduation Countdown",
+  "author": "Ahmed Moustafa",
+  "repository": "",
+  "devDependencies": {
+    "react-scripts": "5.0.0"
+  },
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "serve": "^13.0.2"
+  },
+  "scripts": {
+    "dev": " react-scripts start",
+    "start": "DISABLE_ESLINT_PLUGIN=true serve -s build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test --env=jsdom",
+    "eject": "DISABLE_ESLINT_PLUGIN=true react-scripts eject",
+    "heroku-postbuild": "DISABLE_ESLINT_PLUGIN=true npm run build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
