@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Countdown from "./Countdown.js";
-import logo from "./logo.png";
+import logo from "./logo.gif";
 
 class App extends Component {
   render() {
