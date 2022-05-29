@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Countdown from "./Countdown.js";
-import logo from "./logo.gif";
+import logo from "./images/logo.gif";
+import ReactPlayer from "react-player";
 
 class App extends Component {
   render() {
@@ -17,9 +18,10 @@ class App extends Component {
         </div>
 
         <h3 className="title">
-          Graduation from this misery is coming soon (Noon of 19th of July, UTC+2 time):
+          Graduation from this misery is coming soon (Noon of 18th of July, UTC+2 time):
         </h3>
-        <Countdown date={`${year}-07-19T17:00:00`} />
+        <Countdown date={`${year}-07-18T17:00:00`} />
+        <ReactPlayer className="Countdown" controls={true} url="https://www.youtube.com/watch?v=yOUX-eWwfF0" playing={true}/>
       </div>
     );
   }

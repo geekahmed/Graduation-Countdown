@@ -54,3 +54,9 @@ body {
 .Countdown-col-element strong{
   font-size: 50px;
 }
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+}
