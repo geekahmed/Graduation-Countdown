@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 class Countdown extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       days: 0,
       hours: 0,
@@ -78,9 +77,8 @@ class Countdown extends Component {
 
   render() {
     const countDown = this.state;
-
     return (
-      <div className="Countdown">
+      <div className="Countdown" >
         <span className="Countdown-col">
           <span className="Countdown-col-element">
             <strong>{this.addLeadingZeros(countDown.days)}</strong>
