@@ -21,7 +21,7 @@ class App extends Component {
         </h3>
         <Countdown date={`${year}-07-18T17:00:00`} />
         <h3 className="textPrimary">Final Automata Exam 🚨</h3>
-        <p className="textPrimary">(Somehow we will get though it.)</p>
+        <p className="textPrimary">(Somehow we will get through it.)</p>
         <p><a href="https://docs.google.com/document/d/18Esh8CXDo1HPhuXyoSBZDvLlxBwo89zJabxXo_HUYlA/edit" target="_blank">Google Docs file</a></p>
         <Countdown date={`${year}-06-05T16:00:00`} />
         <div className="player">
