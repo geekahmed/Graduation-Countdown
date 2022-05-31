@@ -85,3 +85,11 @@ body {
 .textPrimary{
   margin: 0;
 }
+
+.textmarginBottom{
+  margin-bottom: 0;
+}
+.textmarginTop{
+  margin-top: 5px;
+}
+
