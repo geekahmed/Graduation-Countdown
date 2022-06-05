@@ -77,6 +77,14 @@ class Countdown extends Component {
 
   render() {
     const countDown = this.state;
+    const timerOut = () => {
+      if (countDown.days === 0 &&
+          countDown.hours === 0 &&
+          countDown.min === 0 &&
+          countDown.sec === 1) {
+            return true;
+      }
+    }
     return (
       <div className="Countdown" >
         <span className="Countdown-col">

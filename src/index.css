@@ -93,3 +93,6 @@ body {
   margin-top: 5px;
 }
 
+.newSubject{
+  display: none;
+}
