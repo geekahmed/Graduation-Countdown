@@ -29,15 +29,14 @@ class App extends Component {
             <h3 className="textPrimary">Final Automata Exam (1/5) ✅</h3>
             <h3 className="textPrimary">Final Process Control (2/5) ✅</h3>
             <br />
-            <div className="apologyToMorgan">
+            {/* <div className="apologyToMorgan">
             <q>أخواني لا يجب أن تحركنا الاحقاد عن الناجحين والمتفوقين, لقد هاجمنا هنا من نفس هذا المكان أشخاص قدموا لنا الكثير, ولكن ما أن وضحت لنا الحقيقة حتي رجعنا عما كنا فيه وندمنا علي ما فعلنا </q>
             <img src={image} className="responsive" height="330" width="530" alt="أخواتي لقد تسرعنا"></img>
-            </div>
+            </div> */}
           </div>
           <div>
-            <br/>
-            <h3 className="textPrimary">Final Fiber optics  (3/5) 🚨</h3>
-            <p className="textPrimary">(There is no caption today)</p>
+            <h3 className="textPrimary">Final Fiber Optics Exam (3/5) 🚨</h3>
+            <p className="textPrimary">(دخيـــلك معلم سيـــد لا تقوصنــي)</p>
             <p><a href="https://docs.google.com/document/d/1WMYfu7o1qrcTtvB9FYu6CFG3q9RG8K_2Eniut__Ec_E/edit?usp=sharing" target="_blank">Google Docs file</a></p>
             <Countdown date={`${year}-06-12T16:00:00`} />
           </div>
