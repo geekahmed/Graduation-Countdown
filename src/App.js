@@ -43,7 +43,7 @@ class App extends Component {
           </div>
         </div>
         <div className="player">
-          <ReactPlayer controls={true} url="https://www.youtube.com/watch?v=5qap5aO4i9A" playing={false} />
+          <ReactPlayer controls={true} url="https://www.youtube.com/watch?v=5qap5aO4i9A" playing={true} />
         </div>
         <Footer />
       </div>
