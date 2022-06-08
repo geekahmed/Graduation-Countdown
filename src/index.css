@@ -36,7 +36,6 @@ body {
 }
 
 .Countdown {
-  margin: 10px auto;
   padding-bottom: 20px;
 }
 
@@ -96,3 +95,31 @@ body {
 .newSubject{
   display: none;
 }
+.apologyToMorgan{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 530px;
+  max-height: 600px;
+  font-size:x-large;
+  
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+/* .container{
+  margin-top: 20px;
+  background-image: 
+  linear-gradient(
+    rgba(19, 19, 19, 0.5),
+    rgba(27, 27, 27, 0.5)
+  ),
+  url(./images/CSE_Class_of_2022.jpg);
+  color: white;
+  background-position: center;
+  background-size: cover;
+} */

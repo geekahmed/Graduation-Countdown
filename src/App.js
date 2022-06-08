@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Countdown from "./Countdown.js";
 import logo from "./images/logo.gif";
+import image from "./images/image.jpg"
 import ReactPlayer from "react-player";
 import Footer from "./components/Footer.js";
 class App extends Component {
@@ -26,17 +27,23 @@ class App extends Component {
           <Countdown date={`${year}-07-18T16:00:00`} />
           <div>
             <h3 className="textPrimary">Final Automata Exam (1/5) ✅</h3>
+            <h3 className="textPrimary">Final Process Control (2/5) ✅</h3>
             <br />
+            <div className="apologyToMorgan">
+            <q>أخواني لا يجب أن تحركنا الاحقاد عن الناجحين والمتفوقين, لقد هاجمنا هنا من نفس هذا المكان أشخاص قدموا لنا الكثير, ولكن ما أن وضحت لنا الحقيقة حتي رجعنا عما كنا فيه وندمنا علي ما فعلنا </q>
+            <img src={image} className="responsive" height="330" width="530" alt="أخواتي لقد تسرعنا"></img>
+            </div>
           </div>
           <div>
-            <h3 className="textPrimary">Final Process Control  (2/5) 🚨</h3>
-            <p className="textPrimary">(Don't trust anyone blindly.)</p>
-            <p><a href="https://docs.google.com/document/d/1oozQDvqqd2nSV1G8gac3YCmkwzSRQj9ROlGc-CKS7qI/edit" target="_blank">Google Docs file</a></p>
-            <Countdown date={`${year}-06-08T16:00:00`} />
+            <br/>
+            <h3 className="textPrimary">Final Fiber optics  (3/5) 🚨</h3>
+            <p className="textPrimary">(There is no caption today)</p>
+            <p><a href="https://docs.google.com/document/d/1WMYfu7o1qrcTtvB9FYu6CFG3q9RG8K_2Eniut__Ec_E/edit?usp=sharing" target="_blank">Google Docs file</a></p>
+            <Countdown date={`${year}-06-12T16:00:00`} />
           </div>
         </div>
         <div className="player">
-          <ReactPlayer controls={true} url="https://www.youtube.com/watch?v=5qap5aO4i9A" playing={true} />
+          <ReactPlayer controls={true} url="https://www.youtube.com/watch?v=5qap5aO4i9A" playing={false} />
         </div>
         <Footer />
       </div>
