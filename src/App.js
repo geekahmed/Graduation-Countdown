@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Countdown from "./Countdown.js";
 import logo from "./images/logo.gif";
 import image from "./images/image.jpg"
+import zetna from "./images/zetna.jpg"
 import ReactPlayer from "react-player";
 import Footer from "./components/Footer.js";
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
           <div>
             <h3 className="textPrimary">Final Automata Exam (1/5) ✅</h3>
             <h3 className="textPrimary">Final Process Control (2/5) ✅</h3>
+            <h3 className="textPrimary">Final Fiber Optics Exam (3/5) ✅</h3>
             <br />
             {/* <div className="apologyToMorgan">
             <q>أخواني لا يجب أن تحركنا الاحقاد عن الناجحين والمتفوقين, لقد هاجمنا هنا من نفس هذا المكان أشخاص قدموا لنا الكثير, ولكن ما أن وضحت لنا الحقيقة حتي رجعنا عما كنا فيه وندمنا علي ما فعلنا </q>
@@ -35,10 +37,14 @@ class App extends Component {
             </div> */}
           </div>
           <div>
-            <h3 className="textPrimary">Final Fiber Optics Exam (3/5) 🚨</h3>
-            <p className="textPrimary">(دخيـــلك معلم سيـــد لا تقوصنــي)</p>
-            <p><a href="https://docs.google.com/document/d/1WMYfu7o1qrcTtvB9FYu6CFG3q9RG8K_2Eniut__Ec_E/edit?usp=sharing" target="_blank">Google Docs file</a></p>
-            <Countdown date={`${year}-06-12T16:00:00`} />
+            <h3 className="textPrimary">Final Measurement Exam (4/5) 🚨</h3>
+            {/* <p className="textPrimary">(دخيـــلك معلم سيـــد لا تقوصنــي)</p> */}
+            <div className="zetna">
+              <br/>
+              <img src={zetna} className="responsive" height="150" width="230" alt="أخواتي لقد تسرعنا"></img>
+            </div>
+            <p><a href="https://docs.google.com/document/d/1cYeg5Lvat7lFhKeZRxhK0_rayiSgMt8m/edit" target="_blank">Google Docs file</a></p>
+            <Countdown date={`${year}-06-15T16:00:00`} />
           </div>
         </div>
         <div className="player">

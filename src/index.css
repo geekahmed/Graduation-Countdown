@@ -111,6 +111,20 @@ body {
   width: 100%;
   height: auto;
 }
+.zetna{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 330px;
+  max-height: 300px;
+}
+
+.zetnaRes {
+  width: 100%;
+  height: auto;
+}
 /* .container{
   margin-top: 20px;
   background-image: 
