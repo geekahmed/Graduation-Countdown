@@ -37,14 +37,11 @@ class App extends Component {
             </div> */}
           </div>
           <div>
-            <h3 className="textPrimary">Final Measurement Exam (4/5) 🚨</h3>
+            <h3 className="textPrimary">Final Measurement Exam (4/5) ✅</h3>
             {/* <p className="textPrimary">(دخيـــلك معلم سيـــد لا تقوصنــي)</p> */}
-            <div className="zetna">
-              <br/>
-              <img src={zetna} className="responsive" height="150" width="230" alt="أخواتي لقد تسرعنا"></img>
-            </div>
-            <p><a href="https://docs.google.com/document/d/1cYeg5Lvat7lFhKeZRxhK0_rayiSgMt8m/edit" target="_blank">Google Docs file</a></p>
-            <Countdown date={`${year}-06-15T16:00:00`} />
+            <h3 className="textPrimary">Final Database Exam (5/5) 🚨</h3>
+            <p><a href="https://docs.google.com/document/d/1j1uKAcZpUD6PbXdr_eCnszbzCRpSbu1YT3Vo8J2ThXg/edit" target="_blank">Google Docs file</a></p>
+            <Countdown date={`${year}-06-19T16:00:00`} />
           </div>
         </div>
         <div className="player">
