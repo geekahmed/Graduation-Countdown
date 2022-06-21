@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -81,68 +80,46 @@ body {
   text-decoration: none;
 }
 
-.textPrimary{
+.textPrimary {
   margin: 0;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
 
-.textmarginBottom{
+.textmarginBottom {
   margin-bottom: 0;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
-.textmarginTop{
+.textmarginTop {
   margin-top: 5px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
 }
-
-.newSubject{
-  display: none;
-}
-.apologyToMorgan{
+.card-content{
+  height: 909.09px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 530px;
-  max-height: 600px;
-  font-size:x-large;
-  
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
-}
-.zetna{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 330px;
-  max-height: 300px;
-}
-
-.zetnaRes {
-  width: 100%;
-  height: auto;
-}
-.hant{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  max-width: 330px;
-  max-height: 300px;
-}
-/* .container{
-  margin-top: 20px;
-  background-image: 
-  linear-gradient(
-    rgba(19, 19, 19, 0.5),
-    rgba(27, 27, 27, 0.5)
-  ),
-  url(./images/CSE_Class_of_2022.jpg);
+  justify-content: space-between;
+  font-family: sans-serif;
+  text-align: center;
   color: white;
+  background-image: linear-gradient(
+      0deg,
+      hsla(0, 0%, 35.29%, 0) 0%,
+      hsla(0, 0%, 35.29%, 0) 0%,
+      hsla(0, 0%, 34.53%, 0.034375) 16.36%,
+      hsla(0, 0%, 32.42%, 0.125) 33.34%,
+      hsla(0, 0%, 29.18%, 0.253125) 50.1%,
+      hsla(0, 0%, 24.96%, 0.4) 65.75%,
+      hsla(0, 0%, 19.85%, 0.546875) 79.43%,
+      hsla(0, 0%, 13.95%, 0.675) 90.28%,
+      hsla(0, 0%, 7.32%, 0.765625) 97.43%,
+      hsla(0, 0%, 0%, 0.8) 100%
+    ),
+    url("./images/IMG_0940.jpg");
+  /* Center and scale the image nicely */
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-} */
+}
+.whatever-text {
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
