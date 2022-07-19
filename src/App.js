@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Countdown from "./Countdown.js";
 import logo from "./images/logo.gif";
-import CSE_ClassOf2022 from "./images/IMG_0940.jpg"
 import ReactPlayer from "react-player";
 import Footer from "./components/Footer.js";
 class App extends Component {
